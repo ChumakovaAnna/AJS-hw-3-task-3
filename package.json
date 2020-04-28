@@ -52,8 +52,8 @@
   "homepage": "https://github.com/ChumakovaAnna/AJS-hw-3-task-3#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm run lint"
+      "pre-commit": "npm run lint && npm test",
+      "pre-push": "npm test"
     }
   }
 }
